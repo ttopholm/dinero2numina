@@ -1,0 +1,20 @@
+# Credentials og lokale data – commit aldrig disse
+.env
+files/
+state.json
+attach_state.json
+files.json
+vouchers.json
+tokens.txt
+upload_links.json
+attach_links.json
+attach_items.json
+attach_plan.json
+attach_hold.json
+unmatched.json
+numina_booked_*.json
+numina_tx.json
+docs_*.json
+result_*.json
+skip.json
+__pycache__/
