@@ -11,6 +11,12 @@ bortset fra `pypdf` til trin 6).
 Forudsætning: din bogføring er allerede migreret til Numina (posteringerne findes i Numina med
 tomme bilag, og teksterne indeholder typisk "Betaling af Køb N" eller "(Dinero N)").
 
+## Den nemme vej: lad en AI-agent køre det
+Repoet indeholder `CLAUDE.md` (og `AGENTS.md`, samme indhold) – en kørebog til Claude Code / Claude med
+Numina MCP tilsluttet. Klon repoet, læg din `.env` i mappen, åbn mappen i Claude og skriv fx
+*"flyt mine bilag fra Dinero til Numina for 2026"*. Agenten tjekker forudsætninger, kører scripts,
+starter match-subagenter og spørger dig, før den knytter tvivlsomme matches.
+
 ## 0. Opsætning (én gang)
 1. Dinero → Indstillinger → Integrationer → API-nøgler → opret en **Personlig integration**.
    Du får Client ID, Client Secret og en API-nøgle.
